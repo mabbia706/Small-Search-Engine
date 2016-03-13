@@ -1,0 +1,42 @@
+﻿Build started 12/14/2014 5:08:19 PM.
+     1>Project "C:\Users\DELL\Documents\Visual Studio 2013\Projects\project 5\project 5\project 5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "search engine.cpp"
+         search engine.cpp
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\2 3 tree.h(522): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\2 3 tree.h(526): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\search engine.cpp(214): warning C4129: '|' : unrecognized character escape sequence
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\search engine.cpp(247): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\search engine.cpp(287): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\search engine.cpp(294): warning C4129: '|' : unrecognized character escape sequence
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\search engine.cpp(340): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\search engine.cpp(341): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\search engine.cpp(357): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\hash table.h(37): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\hash table.h(36) : while compiling class template member function 'void hash_table<Two_Three_Tree<std::string>>::count_words(std::vector<std::string,std::allocator<_Ty>> &)'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\search engine.cpp(260) : see reference to function template instantiation 'void hash_table<Two_Three_Tree<std::string>>::count_words(std::vector<std::string,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\search engine.cpp(254) : see reference to class template instantiation 'hash_table<Two_Three_Tree<std::string>>' being compiled
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\hash table.h(44): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\hash table.h(43) : while compiling class template member function 'void hash_table<Two_Three_Tree<std::string>>::print(std::string *,int)'
+                 c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\search engine.cpp(271) : see reference to function template instantiation 'void hash_table<Two_Three_Tree<std::string>>::print(std::string *,int)' being compiled
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\2 3 tree.h(532): warning C4715: 'Two_Three_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::check_word_freq_in_file' : not all control paths return a value
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\linked list.h(226): warning C4715: 'SLL<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::extra_search' : not all control paths return a value
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\linked list.h(263): warning C4715: 'SLL<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::find_freq_of_term' : not all control paths return a value
+     1>c:\users\dell\documents\visual studio 2013\projects\project 5\project 5\linked list.h(244): warning C4715: 'SLL<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::search' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DELL\Documents\Visual Studio 2013\Projects\project 5\Debug\project 5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DELL\Documents\Visual Studio 2013\Projects\project 5\Debug\project 5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DELL\Documents\Visual Studio 2013\Projects\project 5\Debug\project 5.lib" /MACHINE:X86 Debug\porter2_stemmer.obj
+         "Debug\search engine.obj"
+         project 5.vcxproj -> C:\Users\DELL\Documents\Visual Studio 2013\Projects\project 5\Debug\project 5.exe
+     1>Done Building Project "C:\Users\DELL\Documents\Visual Studio 2013\Projects\project 5\project 5\project 5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.14
